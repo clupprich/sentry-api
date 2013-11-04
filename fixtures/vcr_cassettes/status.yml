@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://app.getsentry.com/api/sentry-api/groups/newest/?limit=25&minutes=1440
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Mechanize/2.7.2 Ruby/2.0.0p247 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - csrftoken=9GWd9gSBtrOhuq2NgsadsP6QIZ0C3qKZ; sessionid=.eJxrYKotZNQIFYpPLC3JiC8tTi2KT0pMzk7NSylkClUqTs0rKarUKy3JzCnWA6nQc81NzMxxBLKcoKqYI7gYGBhKUotLkvPzszNTI9iA3PL8ouzUlFBeJFMzUwpZfF9al-oBAO-KJ7U:1VdKKC:ewMIFA-OoHePAQ9sNOB-d811tmU
+      Referer:
+      - !ruby/object:URI::HTTPS
+        scheme: https
+        user: 
+        password: 
+        host: app.getsentry.com
+        port: 443
+        path: /
+        query: 
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 04 Nov 2013 13:36:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Language:
+      - en
+      Expires:
+      - Mon, 04 Nov 2013 13:36:13 GMT
+      Vary:
+      - Accept-Language, Cookie
+      Last-Modified:
+      - Mon, 04 Nov 2013 13:36:13 GMT
+      Cache-Control:
+      - max-age=0
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=2592000
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA81TW2/TMBT+K5aRJhAtjRO3abKnIfbAC5oob9OEnNRzTR07
+        8qVcqv73nZNeGBqgSWMSUh6ck3OOv1uut3QjfdDO0pqwYl5My5yVxZuyqvKq
+        GhEadScXvbQRvttkDJSMCHEhJU7QPGPFmLFxxj+xos6Lmpevs6zOMgqNKx2i
+        87oV5p2IAtqvsxH5Jw+7gfU6fJTBmY1cwupbYYJEcHIjzQfRSUQnvXcekUQd
+        zVB5qX3zimhLGuPaNR6g8LnRdqmtIiISo60kM5zRuJZWUz6dM4aF0DqPS/Yy
+        MZ6XeJ9TSnrs9M5FbGuFPeCCavQJUQlrXRQRZA4ow5a2Lg2SghqgZyMNbkgB
+        rKA75BaFGjr3PK9SY3QL70eWKxEODhwrt9o/0pXj1XQg1UvfCSC9RgCTAEb7
+        72PR6/tH5V3qJwclJjg1qAwTHPF3MgShBnlR+EsUvSbJaqujht0/5JK0wDwK
+        G8mFV6mDWy6/tbJHQXDdIYL3GL91bt0Jv/7F2967L7JF2bbUHixeDIjJxdX7
+        wSKTFOL4yYPudiNo/23I5xnjMxT78RnP64LXRfbsGWfwozw543Hl3dc/hJrn
+        vHwQ6tmcl0Mi//dQP7DhCaFGJf4a6lNkj8FuRVKrSPbyvjgz8fyU5pqcjmcq
+        nj9/uG/uACqxV9LCBQAA
+    http_version: 
+  recorded_at: Mon, 04 Nov 2013 13:36:13 GMT
+recorded_with: VCR 2.7.0
