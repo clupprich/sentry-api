@@ -1,4 +1,4 @@
-# Sentry-Api [![Build Status](https://travis-ci.org/clupprich/sentry-api.png?branch=master)](https://travis-ci.org/clupprich/sentry-api)
+# Sentry-Api [![Build Status](https://travis-ci.org/clupprich/sentry-api.png?branch=master)](https://travis-ci.org/clupprich/sentry-api) [![Code Climate](https://codeclimate.com/github/clupprich/sentry-api.png)](https://codeclimate.com/github/clupprich/sentry-api)
 
 A gem for Sentry, which exhibits an API like interface.
 
